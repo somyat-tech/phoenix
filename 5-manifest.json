@@ -1,0 +1,19 @@
+{
+  "name": "Phoenix - إدارة عربية التوزيع",
+  "short_name": "Phoenix",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "theme_color": "#121212",
+  "background_color": "#121212",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "1600x1600",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
