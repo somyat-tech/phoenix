@@ -1,4 +1,4 @@
-const CACHE = 'phoenix-v9';
+const CACHE = 'phoenix-v10';
 const ASSETS = ['./', './index.html', './manifest.json', './icon.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
